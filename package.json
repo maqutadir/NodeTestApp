@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "node": "17.7.2"
+  },
   "scripts": {
     "start": "node index.js"
   },
