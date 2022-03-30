@@ -10,7 +10,8 @@ const ParserFunction = (dArray) => {
   }
 };
 
-console.log(dRegex("This is a test disease: Acne"));
+console.log(dRegex("Test disease: Acne!"));
+console.log("Okay that is fine");
 const result = dRegex("Abdominoplasty (Tummy Tuck)");
 
 console.log("Result is", result);
