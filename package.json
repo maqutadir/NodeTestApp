@@ -4,10 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "node": "17.7.2"
+    "@types/nodemon": "1.19.1",
+    "node": "17.7.2",
+    "nodemon": "2.0.15"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "start:dev": "nodemon -- dP.js"
   },
   "devDependencies": {
     "@types/node": "^17.0.21"
